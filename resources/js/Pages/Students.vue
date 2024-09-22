@@ -183,7 +183,7 @@ watch(
                                         <div class="grid gap-4 mb-4 grid-cols-2 mb-6">
                                             <div class="col-span-2 sm:col-span-1">
                                                 <label for="fname"
-                                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Course
+                                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Student
                                                     First Name</label>
                                                 <input v-model="form.fname" type="text" id="fname"
                                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
@@ -193,7 +193,7 @@ watch(
                                             </div>
                                             <div class="col-span-2 sm:col-span-1">
                                                 <label for="lname"
-                                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Course
+                                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Student
                                                     Last Name</label>
                                                 <input v-model="form.lname" type="text" id="lname"
                                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
@@ -379,7 +379,7 @@ watch(
                                 <h3 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you
                                     want
                                     to delete
-                                    this course?</h3>
+                                    this Student?</h3>
                                 <button
                                     class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">
                                     Yes, I'm sure

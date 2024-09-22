@@ -42,7 +42,6 @@ class TeacherController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->user()->role);
         $request->validate([
             'name' => 'required|string|min:4',
             'email' => 'required|email|unique:users,email',
